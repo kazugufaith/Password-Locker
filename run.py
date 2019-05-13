@@ -72,12 +72,12 @@ def main():
                 Credential.delete_account(
                     input("Which account do you wish to delete ?"))
 
-#             # Sign Out
-#             elif choices == 4:
-#                 print('-' * 40)
-#                 print("You are exiting. Bye :)")
-#                 signing_in = False
-#
-#
-# if __name__ == '__main__':
-#     main()
+            # Sign Out
+            elif choices == 4:
+                print('-' * 40)
+                print("You are exiting. Bye :)")
+                signing_in = False
+
+
+if __name__ == '__main__':
+    main()
