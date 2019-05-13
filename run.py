@@ -17,32 +17,32 @@ def sign_in():
     password1 = input("Enter password: ")
     password2 = input("Enter your password again: ")
 
-#     if password1 == password2:
-#         User(username, password1)
-#         return True
-#     else:
-#         print('\n')
-#         print("Password doesn't match")
-#         print('\n')
-#         sign_in()
-#
-#
-# def start():
-#     print("Start Here")
-#     options = True
-#     while options:
-#         inp = int(input("1. Sign In \n2. Exit"))
-#         print('\n')
-#         if inp == 1:
-#             return sign_in()
-#             # options = False
-#         elif inp == 2:
-#             print('\n')
-#             print("You are Signing Out")
-#             sys.exit(4)
-#         else:
-#             print("Select 1 or 2")
-#
+    if password1 == password2:
+        User(username, password1)
+        return True
+    else:
+        print('\n')
+        print("Password doesn't match")
+        print('\n')
+        sign_in()
+
+
+def start():
+    print("Start Here")
+    options = True
+    while options:
+        inp = int(input("1. Sign In \n2. Exit"))
+        print('\n')
+        if inp == 1:
+            return sign_in()
+            # options = False
+        elif inp == 2:
+            print('\n')
+            print("You are Signing Out")
+            sys.exit(4)
+        else:
+            print("Select 1 or 2")
+
 #
 # def main():
 #     print("Welcome to Password Locker")
