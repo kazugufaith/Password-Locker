@@ -63,10 +63,10 @@ def main():
                 password = passlen(password_len)
                 Credential(account, username, password)
 
-#             # View Account
-#             elif choices == 2:
-#                 Credential.view_account()
-#
+            # View Account
+            elif choices == 2:
+                Credential.view_account()
+
 #             # Delete Account
 #             elif choices == 3:
 #                 Credential.delete_account(
