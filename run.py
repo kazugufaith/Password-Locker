@@ -43,18 +43,18 @@ def start():
         else:
             print("Select 1 or 2")
 
-#
-# def main():
-#     print("Welcome to Password Locker")
-#     signed_in = start()
-#     if signed_in:
-#         signing_in = True
-#         while signing_in:
-#
-#             print('\n')
-#             choices = int(
-#                 input("1. Create Account \n2. View Account \n3. Delete Account \n4. Sign Out"))
-#
+
+def main():
+    print("Welcome to Password Locker")
+    signed_in = start()
+    if signed_in:
+        signing_in = True
+        while signing_in:
+
+            print('\n')
+            choices = int(
+                input("1. Create Account \n2. View Account \n3. Delete Account \n4. Sign Out"))
+
 #             # Create Account
 #             if choices == 1:
 #                 account = input("Enter account name: ")
