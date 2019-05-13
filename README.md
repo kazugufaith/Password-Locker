@@ -36,7 +36,7 @@ Testing was done using python inbuild tools called unittest
 -   The user can choose to create an account, view the accounts and delete the accounts
 -   The user can choose to exit
 
-<!-- ### Important packages in the application
+### Important packages in the application
 
 -   time module allows some time delay before an action happens
 -   string module allows access to al string, numbers and alphanumerics to allow  generation of passwords
@@ -59,4 +59,4 @@ Email:faithmugesia@gmail.com
 -   Python3.6
 
 License
-Copyright (c) {2019} Faith Kazungu    -->
+Copyright (c) {2019} Faith Kazungu    
