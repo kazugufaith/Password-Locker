@@ -75,7 +75,7 @@ def main():
             # Sign Out
             elif choices == 4:
                 print('-' * 40)
-                print("You are exiting. Bye :)")
+                print("You are exiting. Nice time :)")
                 signing_in = False
 
 
