@@ -55,14 +55,14 @@ def main():
             choices = int(
                 input("1. Create Account \n2. View Account \n3. Delete Account \n4. Sign Out"))
 
-#             # Create Account
-#             if choices == 1:
-#                 account = input("Enter account name: ")
-#                 username = input("Enter your username: ")
-#                 password_len = int(input("Enter password length: "))
-#                 password = passlen(password_len)
-#                 Credential(account, username, password)
-#
+            # Create Account
+            if choices == 1:
+                account = input("Enter account name: ")
+                username = input("Enter your username: ")
+                password_len = int(input("Enter password length: "))
+                password = passlen(password_len)
+                Credential(account, username, password)
+
 #             # View Account
 #             elif choices == 2:
 #                 Credential.view_account()
