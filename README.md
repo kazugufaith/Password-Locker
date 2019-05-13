@@ -10,7 +10,7 @@ By Faith Kazungu
 
 Password Locker is a pyhton based application that allows a user to generate and store passwords for various accounts. Users can manage their accounts by viewing them, searching and deleting them.
 
-<!-- ### Setup/Installation Requirements
+### Setup/Installation Requirements
 
 git clone   <https://kazugufaith.github.io/Password-Locker/&&> cd Password-Locker.
 
@@ -24,7 +24,7 @@ cd Password-Locker.
 
 python3.6 run.py.
 
-### Test Driven Application
+<!-- ### Test Driven Application
 
 Testing was done using python inbuild tools called unittest
 
@@ -59,4 +59,4 @@ Email:faithmugesia@gmail.com
 -   Python3.6
 
 License
-Copyright (c) {2019} Faith Kazungu  -->
+Copyright (c) {2019} Faith Kazungu   -->
