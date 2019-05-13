@@ -67,11 +67,11 @@ def main():
             elif choices == 2:
                 Credential.view_account()
 
-#             # Delete Account
-#             elif choices == 3:
-#                 Credential.delete_account(
-#                     input("Which account do you wish to delete ?"))
-#
+            # Delete Account
+            elif choices == 3:
+                Credential.delete_account(
+                    input("Which account do you wish to delete ?"))
+
 #             # Sign Out
 #             elif choices == 4:
 #                 print('-' * 40)
